@@ -20,7 +20,7 @@ alias l="ls -lF ${colorflag}"
 alias la="ls -laF ${colorflag}"
 
 # Since I can't break the habit when switching to and from debian
-alias ll="ls la ${colorflag}"
+alias ll="ls -la ${colorflag}"
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
