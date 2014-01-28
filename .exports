@@ -37,3 +37,7 @@ export SBT_OPTS="-XX:MaxPermSize=256M"
 export JREBEL_PATH="~/tools/jrebel/jrebel.jar"
 
 export SCALATRA_JREBEL="~/tools/jrebel/jrebel.jar"
+
+export PATH="/usr/local/bin:$PATH"
+
+export PATH="/usr/local/sbin:$PATH"
