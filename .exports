@@ -11,6 +11,7 @@ export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 # Prefer US English and use UTF-8
 export LANG="en_US"
 export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="UTF-8"
 
 # Highlight section titles in manual pages
 export LESS_TERMCAP_md="$ORANGE"
@@ -23,3 +24,16 @@ export GREP_OPTIONS="--color=auto"
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+# Sublime Text 2
+export SUBLIME="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home"
+
+export MAVEN_OPTS="-Djavax.net.ssl.trustStore=$JAVA_HOME/lib/security/cacerts -Djavax.net.ssl.trustStorePassword=changeit"
+
+export SBT_OPTS="-XX:MaxPermSize=256M"
+
+export JREBEL_PATH="~/tools/jrebel/jrebel.jar"
+
+export SCALATRA_JREBEL="~/tools/jrebel/jrebel.jar"

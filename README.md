@@ -1,4 +1,6 @@
-# Mathias’s dotfiles
+# Paul’s dotfiles (Work in Progress)
+
+All kudos and credit etc to https://github.com/mathiasbynens/dotfiles
 
 ## Installation
 
