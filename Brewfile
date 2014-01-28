@@ -40,6 +40,7 @@ install rbenv
 
 # Install build tools
 install maven
+install sbt
 
 # Install stack components
 install nginx --with-gunzip
