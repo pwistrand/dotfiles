@@ -34,9 +34,9 @@ export MAVEN_OPTS="-Djavax.net.ssl.trustStore=$JAVA_HOME/lib/security/cacerts -D
 
 export SBT_OPTS="-XX:MaxPermSize=256M"
 
-export JREBEL_PATH="~/tools/jrebel/jrebel.jar"
+export JREBEL_PATH="$HOME/tools/jrebel/jrebel.jar"
 
-export SCALATRA_JREBEL="~/tools/jrebel/jrebel.jar"
+export SCALATRA_JREBEL="$HOME/tools/jrebel/jrebel.jar"
 
 export PATH="/usr/local/bin:$PATH"
 
