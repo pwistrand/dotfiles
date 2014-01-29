@@ -26,6 +26,8 @@ set -- -f; source bootstrap.sh
 
 ### Git-free install
 
+**On Mavericks if you type git in the terminal and it is not installed it will prompt you to install xcode command line tools which exactly want you want for brew.**
+
 To install these dotfiles without Git:
 
 ```bash
@@ -59,6 +61,9 @@ git config --global user.name "$GIT_AUTHOR_NAME"
 GIT_AUTHOR_EMAIL="mathias@mailinator.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+# and since I find typing my password painful for http cloned responsitories
+git config --global credential.helper store
 ```
 
 You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/mathiasbynens/dotfiles/fork) instead, though.
