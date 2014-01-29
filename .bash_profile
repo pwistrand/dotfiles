@@ -40,3 +40,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # autojump
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+
+# mongodb requires since i launch in user session (see http://docs.mongodb.org/manual/reference/ulimit/)
+ulimit -S -n 2048
