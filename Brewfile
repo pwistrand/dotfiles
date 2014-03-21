@@ -36,7 +36,9 @@ install python
 install node
 install erlang
 
+# rbenv ruby environment manager and ruby-build plugin
 install rbenv
+install ruby-build
 
 # Install build tools
 install maven
