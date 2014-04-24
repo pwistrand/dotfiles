@@ -18,5 +18,5 @@ installcask google-drive
 #installcask vagrant
 
 #installcask sublime-text
-#installcask intellij-idea-ultimate
+#installcask intellij-idea
 #installcask skype
