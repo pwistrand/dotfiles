@@ -28,7 +28,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 # Sublime Text 2
 export SUBLIME="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home"
 
 export MAVEN_OPTS="-Djavax.net.ssl.trustStore=$JAVA_HOME/lib/security/cacerts -Djavax.net.ssl.trustStorePassword=changeit"
 
