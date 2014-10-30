@@ -30,6 +30,7 @@ install tig
 install tree
 install autojump
 install htop-osx
+install tmux
 
 # Install languages and environments
 install python
